@@ -132,9 +132,9 @@ body{
 }
 
 .container .loginpage button:hover{
-    outline: blueviolet solid 5px;
+    outline: blueviolet solid 3px;
     outline-offset: 5px;
     cursor: pointer;
     font-size: 1.5rem;
-    transition: all .3s ease;
+    transition: all 0.2s ease;
 }
