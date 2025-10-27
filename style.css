@@ -14,10 +14,7 @@ body{
 
 .informasi {
     width: 60vw;
-    background-image: url(gambar/background.jpg);
-    background-repeat: none;
-    background-position: center;
-    background-size: cover;
+    background: linear-gradient(to bottom, #4E56C0, #9B5DE0, #D78FEE);
     display: flex;
     flex-direction: column;
     padding: 100px;
