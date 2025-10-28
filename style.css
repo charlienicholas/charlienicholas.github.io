@@ -12,7 +12,7 @@ body{
     height: 100%;
 }
 
-.informasi {
+.container .informasi {
     width: 60vw;
     background: linear-gradient(to bottom, #4E56C0, #9B5DE0, #D78FEE);
     display: flex;
@@ -113,7 +113,6 @@ body{
 .container .loginpage a:hover{
     color: blue;
     transition: all 0.3s ease;
-
 }
 
 .container .loginpage button{
@@ -135,4 +134,61 @@ body{
     cursor: pointer;
     font-size: 1.5rem;
     transition: all 0.2s ease;
+}
+
+
+
+
+ @media only screen and (max-width: 760px) {
+ .container .informasi{
+    display: none;
+ } 
+
+ .container .loginpage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+ }
+
+ .container .loginpage h1{
+    font-size: 2.3rem;
+ }
+
+.container .loginpage form{
+    align-items: center;
+}
+
+.container .loginpage form .input{
+    padding: 10px 15px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, .7);
+    max-width: 75%;
+}
+
+.container .loginpage form .input:active{
+    outline: 3px solid rgba(0, 0, 255, .6);
+    outline-offset: 5px;
+    box-shadow: none;
+}
+
+.container .loginpage a{
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.container .loginpage a:active{
+    color: blue;
+}
+
+.container .loginpage button{
+    padding: 10px 50px;
+    font-size: 1.1rem;
+    margin-top: 0;
+}
+
+.container .loginpage button:active{
+    outline-offset: 3px;
+    font-size: 1.2rem;
+}
+
 }
