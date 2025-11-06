@@ -150,17 +150,18 @@
 .section-gallery h1{
     font-family: "Montserrat", sans-serif;
     font-size: 6rem;
-    font-weight: 600;
+    font-weight: 800;
     text-transform: capitalize;
     padding: 5% 0px;
     border-top: 4px solid rgba(1, 1, 120, 0.5);
+    text-align: center;
 }
 
 .section-gallery ul{
     list-style: none;
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-start;
+    justify-content: center;
     gap: 3%;
 }
 
