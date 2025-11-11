@@ -1,12 +1,47 @@
-.jumbotron{
-    background-color: #d6abff;
-    padding-top: 8rem;
+body{
+    background-color: #9290C3;
 }
 
-#galery {
-    background-color: #d6abff;
+.navbar{
+    background-color: #070F2B;
 }
 
-section{
-    padding-top: 5rem;
+.link-nav{
+    gap: 2rem;
 }
+
+.navbar a{
+    color: white;
+}
+
+.navbar a:active{
+    color: rgba(255, 255, 255, .3)
+}
+
+.profile img{
+    width: 100%;
+}
+
+.profile p{
+    margin-top: -10px;
+}
+
+.card-contact{
+    border-bottom: solid 1px rgba(255, 255, 255, .3);
+}
+
+.card-contact:hover, .card-contact:active {
+    border-bottom: solid 2px rgba(255, 255, 255, 1);
+    transition: all .3s ease-in-out;
+}
+
+.deskripsi-galery{
+    text-align: justify;
+}
+
+@media screen and (max-width: 768px){
+    .gambar-profile{
+        width: 100%;
+    }
+}
+
