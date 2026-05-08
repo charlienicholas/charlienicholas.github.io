@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@theme {
+    --font-main: "Montserrat", sans-serif;
+    --color-main: var(--color-indigo-600);
+}
+
+.nav-link.active {
+    @apply text-indigo-600;
+}
+.nav-link.active::after {
+    content: "";
+    @apply absolute -bottom-7.25 left-0 w-full h-0.5 bg-indigo-600;
+}
+
+.nav-link-mobile.active {
+    @apply text-indigo-600 font-bold translate-x-2;
+}
+
+@custom-variant dark (&:where(.dark, .dark *));
